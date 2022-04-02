@@ -53,7 +53,7 @@ If you're using windows, you should follow these steps, otherwise you can go dir
 - Install Conda: download the file .exe from the following [link](https://repo.anaconda.com/archive/Anaconda3-2021.11-Windows-x86_64.exe).
 - Open a terminal and run the following commands:
     ```
-    conda create --name tello python=3.6
+    conda create --name tello python=3.8
     conda activate tello
     ```
 

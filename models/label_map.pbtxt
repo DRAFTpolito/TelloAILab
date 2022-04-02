@@ -1,0 +1,12 @@
+item {
+  id: 1
+  name: 'forward'
+}
+item {
+  id: 2
+  name: 'stop'
+}
+item {
+  id: 3
+  name: 'backward'
+}
