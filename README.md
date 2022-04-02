@@ -61,8 +61,15 @@ If you're using windows, you should follow these steps, otherwise you can go dir
 Open a terminal and move inside the repository's folder:
 ```
 cd /path/to/TelloAILab_internal
-pip install -r requirements.txt
-conda install -c anaconda protobuf
+pip install -r requirements.txt  # if on windows
+conda install -c anaconda protobuf  # if on windows
+```
+
+If you are on linux:
+```
+conda install pytorch torchvision
+conda install -c conda-forge opencv
+pip install av tellopy tensorflow
 ```
 
 If Jupyter Notebook cannot see one of the installed packages, type these commands in a tello terminal.
