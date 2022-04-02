@@ -43,8 +43,8 @@ We can then proceed to configure it and to download the repository
 ```
 git config --global user.name "YOUR-NAME"
 git config --global user.email "YOUR-EMAIL"
-cd ~ && git clone https://github.com/DRAFTpolito/TelloAILab_internal.git
-cd TelloAILab_internal
+cd ~ && git clone https://github.com/DRAFTpolito/TelloAILab.git
+cd TelloAILab
 ```
 
 ### Windows <a name="windows"></a>
@@ -60,7 +60,7 @@ If you're using windows, you should follow these steps, otherwise you can go dir
 ### Requirements <a name="requirements"></a>
 Open a terminal and move inside the repository's folder:
 ```
-cd /path/to/TelloAILab_internal
+cd /path/to/TelloAILab
 pip install -r requirements.txt  # if on windows
 conda install -c anaconda protobuf  # if on windows
 ```
