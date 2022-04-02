@@ -72,6 +72,11 @@ conda install -c conda-forge opencv
 pip install av tellopy tensorflow
 ```
 
+Finally, uninstall opencv headless to avoid problems with "cv2.namedWindows":
+```
+pip uninstall opencv-python-headless
+```
+
 If Jupyter Notebook cannot see one of the installed packages, type these commands in a tello terminal.
 ```
 pip install ipykernel --upgrade
