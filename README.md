@@ -62,6 +62,7 @@ Open a terminal and move inside the repository's folder:
 ```
 cd /path/to/TelloAILab_internal
 pip install -r requirements.txt
+conda install -c anaconda protobuf
 ```
 
 If Jupyter Notebook cannot see one of the installed packages, type these commands in a tello terminal.
