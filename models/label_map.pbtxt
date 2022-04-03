@@ -10,3 +10,7 @@ item {
   id: 3
   name: 'backward'
 }
+item {
+  id: 4
+  name: 'face'
+}
