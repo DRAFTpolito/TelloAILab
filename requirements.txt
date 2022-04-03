@@ -14,6 +14,7 @@ charset-normalizer==2.0.12
 colorama==0.4.4
 cryptography==36.0.0
 cycler==0.11.0
+cython==0.29.28 #####
 debugpy==1.5.1
 decorator==5.1.1
 defusedxml==0.7.1
@@ -56,17 +57,19 @@ Pillow==9.0.1
 pip==21.2.2
 prometheus-client==0.13.1
 prompt-toolkit==3.0.20
+#protobuf-compiler==1.0.20 ####
 pure-eval==0.2.2
 pycparser==2.21
 Pygments==2.11.2
 pyOpenSSL==22.0.0
-pyparsing==3.0.7
+#pyparsing==3.0.7
+pyparsing==2.4.2 ####
 pyrsistent==0.18.0
 PySocks==1.7.1
 python-dateutil==2.8.2
 pytz==2021.3
-pywin32==302
-pywinpty==2.0.2
+#pywin32==302
+#pywinpty==2.0.2
 pyzmq==22.3.0
 requests==2.27.1
 Send2Trash==1.8.0
@@ -75,6 +78,7 @@ six==1.16.0
 sniffio==1.2.0
 stack-data==0.2.0
 tellopy==0.6.0
+#tensorflow==2.8.0 ####
 terminado==0.13.1
 testpath==0.5.0
 torch==1.11.0
